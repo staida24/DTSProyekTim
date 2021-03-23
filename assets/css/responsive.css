@@ -1,0 +1,65 @@
+@media (max-width: 1000px) {
+	label.logo {
+		font-size: 25px;
+		padding-left: 40px;
+	}
+	
+	nav ul li a {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 900px) {
+	label.logo {
+		font-size: 25px;
+		padding: 20px;
+	}
+	
+	.checkbtn {
+		display: block;
+	}
+	
+	ul {
+		position: fixed;
+		width: 100%;
+		height: 100vh;
+		background: #2c3e50;
+		top: 60px;
+		left: 100%;
+		text-align: center;
+		transition: all .5s;
+		z-index: 10;
+	}
+	
+	nav ul li {
+		display: block;
+		margin: 30px;
+		line-height: 30px;
+	}
+	
+	nav ul li a {
+		font-size: 17px;
+	}
+	
+	a:hover, a.active {
+		background: none;
+		color: #0082e6;
+	}
+	
+	#check:checked ~ ul {
+		left: 0;
+	}
+	
+	footer {
+		text-align: center;
+	}
+	
+	.footer-logo img {
+		width: 30%;
+	}
+	
+	footer p {
+		font-size: 12px;
+	}	
+	
+}

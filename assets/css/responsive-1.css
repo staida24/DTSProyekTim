@@ -1,0 +1,13 @@
+@media (max-width: 1000px) {
+  .extra {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+}
+
+
+@media (max-width: 670px) {
+  .extra {
+    width: 100%;
+  }
+}

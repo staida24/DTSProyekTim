@@ -1,0 +1,47 @@
+body {
+  margin: 0 auto;
+  font-family: "Proxima Nova";
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  width:100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.extra1-wrapper {
+  padding-bottom: 80px;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+  font-size: 25px;
+}
+
+.extra {
+  float: left;
+  width: 25%;
+}
+
+.extra-icon h3 {
+  width: 100%;
+  font-size: 23px;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 15px;
+  color: #5f5d60;
+}

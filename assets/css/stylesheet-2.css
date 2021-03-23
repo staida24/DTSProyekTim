@@ -1,0 +1,73 @@
+@keyframes mainbg {
+  0% {
+    background-image: url(../img/pic2.png);
+  }
+  50% {
+    background-image: url(../img/pic1.png);
+    color: #f5f4f4;
+  }
+  100% {
+    background-image: url(../img/pic3.png);
+    color: #f5f4f4;
+  }
+}
+
+.main {
+  padding: 180px 10px 100px 10px;
+  background-image: url(../img/pic2.png);
+  background-size: cover;
+  font-family: serif;
+  animation-name: mainbg;
+  animation-duration: 8s;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+}
+
+.maintext {
+  width: 550px;
+  padding: 25px 0 0 10px;
+  text-align: left;
+}
+
+.main h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.main p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 10px;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.learn {
+  background-color: #42283a;
+  cursor: pointer;
+  box-shadow: 0 7px #4a5b7a;
+}
+
+.learn:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn {
+  padding: 12px 10px;
+  color: white;
+  display: inline-block;
+  opacity: 1;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}

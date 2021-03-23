@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+.testimoni html, body,
+ul, ol, li,
+h1, h2, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+.testimoni body {
+  font-family: "AvenirNext", "Lato", "Hirago KakuGothic ProN", Meiryo, sans-serif;
+ 
+}
+
+.top-testimoni {
+  padding: 180px 0 220px 0;
+  background-color: #8be0e6;
+  background-size: cover;
+  color: white;
+  text-align: left;
+}
+
+.top-testimoni h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 15px;
+  margin-bottom: 10px;
+  transition: all 0.5s;
+}
+
+.top-testimoni h1:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+	opacity: 1;
+}
+
+.container-testmoni {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  background-color: #AFEEEE;
+}
+
+.pesan {
+	font-size: 20px;
+	letter-spacing: 5px;
+ 	margin-bottom: 5px;
+}
+
+.top-testimoni img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: 327px;
+    width: 419px;
+	
+}
+
+.bottom-testimoni h2{
+	font-weight: normal;
+	font-size: 35px;
+	color: solid grey;
+	letter-spacing: 10px;
+ 	margin-bottom: 10px;
+ 	transition: all 0.5s;
+ 	border-bottom: 4px solid grey;
+}
+
+.bottom-testimoni{
+	 padding: 50px 0 50px 0;
+  background-color: #8be0e6;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.bottom-testimoni h2:hover{
+	background-color: lightblue;
+	opacity: 1;
+}
+
+.Nama{
+  font-size: 20px;
+  color: #191970;
+  font-style: bold;
+  font-family: sans-serif;
+}
+
+.Alamat{
+  font-size: 16px;
+  color: blue;
+  font-style: italic;
+  font-family: sans-serif;
+}
+
+.isi{
+  font-size: 14px;
+  color: navy;
+  font-style: underline;
+  font-family: sans-serif;
+}
+
